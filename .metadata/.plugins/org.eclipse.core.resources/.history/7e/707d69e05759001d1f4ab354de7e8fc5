@@ -1,0 +1,31 @@
+package excercicio2;
+
+import java.util.Scanner;
+
+
+
+public class Exercicio3 {
+	
+	
+	public static Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		
+		 int idade =0,contador=0;
+		 
+		 while(contador < 1) 
+		    System.out.println(" Digite sua idade: ");
+		    idade = leia.nextInt();
+		    
+			   if( idade < 21 || idade > 50 ) 
+				   contador++;
+			    
+		 
+	          System.out.println("  total de pessoas menores de 21 anos: " + contador);
+	          System.out.println("  total de pessoas maiores de 50 anos: " + contador);
+		   
+		    
+		    
+	
+	}	    
+}
